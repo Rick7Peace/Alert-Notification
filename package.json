@@ -1,6 +1,7 @@
 {
   "name": "sample-api",
   "version": "1.0.0",
+  "type": "module",
   "description": "sample serverless api",
   "author": "axlrommel",
   "license": "MIT",
@@ -12,7 +13,6 @@
     "serverless": "^3.22.0"
   },
   "dependencies": {
-    "axios": "^0.27.2",
     "dotenv": "^16.0.3"
   }
 }
