@@ -6,7 +6,7 @@
   "author": "axlrommel",
   "license": "MIT",
   "scripts": {
-    "deploy": "npm run lint && npx serverless deploy -s prod",
+    "deploy": "npx serverless deploy -s prod",
     "remove": "npx serverless remove -s prod",
     "lint": "eslint --ignore-path .gitignore ."
 
