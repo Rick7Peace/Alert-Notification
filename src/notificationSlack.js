@@ -4,7 +4,7 @@ export const handler = async (event) => {
       try {
         console.log(record.body);
         //need to send record.body to slack url using axios
-        const slackWebhookUrl = 'https://hooks.slack.com/services/T01JZK2Q6M3/B01JZK2Q6M3/8LjH6s5s3fBQr3F2p5tH2Z0';  // Replace with your actual Slack webhook URL
+        const slackWebhookUrl = 'https://hooks.slack.com/services/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';  // Replace with your actual Slack webhook URL
 
         // Create the payload to send to Slack
         const slackMessage = {
